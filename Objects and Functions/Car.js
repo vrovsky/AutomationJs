@@ -1,6 +1,6 @@
 let car = {
   color: "black",
-  power: function () {
+  power() {
     console.log("car power is 300 hrprs");
   },
 };
