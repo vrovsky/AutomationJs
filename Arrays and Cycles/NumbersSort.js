@@ -4,5 +4,7 @@ function compare(a, b) {
   return a - b;
 }
 numbers.sort(compare);
+alert(numbers);
 
 let numbersGreaterThanThree = numbers.filter((item) => item > 3);
+alert(numbersGreaterThanThree);
