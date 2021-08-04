@@ -1,4 +1,4 @@
-let checkType = function (argument) {
+let checkType = (argument) => {
   if (typeof argument == typeof "Hello") {
     console.log("Type of " + argument + " is String");
   } else if (typeof argument == typeof 123) {
